@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 1520" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="fm" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#b45309"/>
+    </marker>
+  </defs>
+  <rect width="1150" height="1520" fill="#ffffff"/>
+  <text x="50" y="42" font-size="26" font-weight="bold" fill="#111827">MASTER DIAGRAM — SV560 Pick-&amp;-Place Retrofit v4 (as-built)</text>
+
+  <!-- ============ POSITION LADDER ============ -->
+  <line x1="120" y1="560" x2="120" y2="1180" stroke="#6b7280" stroke-width="2.5"/>
+  <g font-size="14" font-weight="bold">
+    <circle cx="120" cy="906" r="7" fill="#0f766e"/><text x="36" y="900" fill="#0f766e">PARK 0</text>
+    <text x="36" y="918" font-size="12" fill="#0f766e">coupling 3–5mm</text>
+    <text x="36" y="934" font-size="12" fill="#0f766e">under plate</text>
+    <circle cx="120" cy="1040" r="7" fill="#1d4ed8"/><text x="30" y="1034" fill="#1d4ed8">ALIGN ~60</text>
+    <text x="30" y="1052" font-size="12" fill="#1d4ed8">chip at prism</text>
+    <circle cx="120" cy="1100" r="7" fill="#b45309"/><text x="30" y="1094" fill="#b45309">SAFE G−3</text>
+    <text x="30" y="1112" font-size="12" fill="#b45309">survives descent</text>
+    <circle cx="120" cy="1180" r="7" fill="#334155"/><text x="26" y="1174" fill="#334155">PLACE</text>
+    <text x="26" y="1192" font-size="12" fill="#334155">until switch clicks</text>
+  </g>
+
+  <!-- ============ HEAD STACK (base-mount, final) ============ -->
+  <text x="200" y="490" font-size="19" font-weight="bold" fill="#374151">Head stack — slide base-mounted on the leg</text>
+  <!-- motor + rail standing on leg -->
+  <rect x="495" y="510" width="70" height="50" fill="#6b7280" stroke="#374151" stroke-width="2"/>
+  <rect x="505" y="560" width="50" height="286" fill="#bfdbfe" stroke="#2563eb" stroke-width="2.5"/>
+  <rect x="488" y="846" width="84" height="40" fill="#93c5fd" stroke="#1d4ed8" stroke-width="2.5"/>
+  <text x="596" y="874" font-size="13" fill="#1d4ed8">bottom block —</text>
+  <text x="596" y="890" font-size="13" fill="#1d4ed8">bolted UP through leg</text>
+  <!-- vertical leg brace -->
+  <rect x="574" y="772" width="14" height="114" fill="#93c5fd" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="596" y="800" font-size="13" fill="#1d4ed8">vertical leg =</text>
+  <text x="596" y="816" font-size="13" fill="#1d4ed8">back brace (2")</text>
+  <!-- horizontal leg on plate -->
+  <rect x="430" y="886" width="230" height="14" fill="#93c5fd" stroke="#1d4ed8" stroke-width="2.5"/>
+  <!-- carriage + offset plate -->
+  <rect x="478" y="660" width="27" height="52" fill="#dbeafe" stroke="#2563eb" stroke-width="2.5"/>
+  <rect x="372" y="668" width="106" height="14" fill="#93c5fd" stroke="#1d4ed8" stroke-width="2.5"/>
+  <!-- float block + collars + spring + switch -->
+  <rect x="356" y="682" width="46" height="60" fill="#d1d5db" stroke="#374151" stroke-width="2.5"/>
+  <rect x="364" y="646" width="30" height="11" fill="#111827"/>
+  <path d="M 379 657 q 11 5 0 9 q -11 5 0 9" fill="none" stroke="#b45309" stroke-width="3"/>
+  <rect x="364" y="746" width="30" height="11" fill="#111827"/>
+  <rect x="404" y="630" width="32" height="17" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+  <line x1="404" y1="645" x2="381" y2="644" stroke="#b45309" stroke-width="2.5"/>
+  <text x="444" y="642" font-size="13" fill="#7c2d12">KW12 roller lever, 0.5–1mm gap,</text>
+  <text x="444" y="658" font-size="13" fill="#7c2d12">clicks at ~50 g</text>
+  <!-- tube -->
+  <rect x="375" y="600" width="9" height="306" fill="#475569"/>
+  <!-- vac hose off top -->
+  <path d="M 379 600 C 400 540, 560 440, 740 520" fill="none" stroke="#0f766e" stroke-width="3.5"/>
+  <!-- head plate + hole + bushing -->
+  <rect x="200" y="900" width="156" height="15" fill="#d1d5db" stroke="#9ca3af"/>
+  <rect x="402" y="900" width="258" height="15" fill="#d1d5db" stroke="#9ca3af"/>
+  <rect x="360" y="894" width="40" height="10" fill="#f59e0b" stroke="#92400e" stroke-width="2"/>
+  <text x="212" y="884" font-size="13" fill="#92400e">6×9 bushing + 3 shim wraps → 9.7 hole</text>
+  <!-- cavity -->
+  <rect x="200" y="900" width="460" height="190" fill="#f9fafb" stroke="#9ca3af" stroke-width="2.5"/>
+  <rect x="220" y="980" width="100" height="9" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
+  <rect x="540" y="980" width="100" height="9" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
+  <!-- coupling + CN750 -->
+  <rect x="362" y="918" width="36" height="44" fill="#d1d5db" stroke="#374151" stroke-width="2.5"/>
+  <text x="410" y="936" font-size="13" fill="#374151">6→10 coupling,</text>
+  <text x="410" y="952" font-size="13" fill="#374151">PTFE-wrapped joints</text>
+  <rect x="372" y="962" width="16" height="12" fill="#374151"/>
+  <rect x="366" y="974" width="28" height="26" rx="6" fill="#9ca3af" stroke="#374151" stroke-width="2"/>
+  <path d="M 368 1000 L 392 1000 L 386 1026 L 374 1026 Z" fill="#9ca3af" stroke="#374151" stroke-width="2"/>
+  <text x="410" y="998" font-size="13" fill="#374151">CN750 (Ø10 head —</text>
+  <text x="410" y="1014" font-size="13" fill="#374151">caliper: may drop in bare)</text>
+  <!-- nozzle + ghost + board -->
+  <path d="M 300 1090 L 540 1090 L 496 1146 L 344 1146 Z" fill="#e5e7eb" stroke="#9ca3af" stroke-width="2.5"/>
+  <line x1="380" y1="1026" x2="380" y2="1196" stroke="#64748b" stroke-width="3" stroke-dasharray="8 7" opacity="0.7"/>
+  <rect x="250" y="1200" width="300" height="10" fill="#e2efda" stroke="#4d7c0f" stroke-width="2"/>
+  <text x="256" y="1234" font-size="13" fill="#4d7c0f">board — head descends via dummy cold profile; tube does final mm</text>
+
+  <!-- ============ SEQUENCE ============ -->
+  <rect x="740" y="66" width="370" height="380" rx="10" fill="none" stroke="#1d4ed8" stroke-width="2.5"/>
+  <text x="760" y="98" font-size="18" font-weight="bold" fill="#1d4ed8">Placement sequence</text>
+  <g font-size="14" fill="#374151">
+    <text x="760" y="130" font-weight="bold">1 · Head top, cold — pick socket by cap,</text>
+    <text x="778" y="150">VAC, sensor ≥ threshold</text>
+    <text x="760" y="180" font-weight="bold">2 · ALIGN — prism in, overlay pads with</text>
+    <text x="778" y="200">fixture micrometers, prism out</text>
+    <text x="760" y="230" font-weight="bold">3 · SAFE — chip tucked under nozzle</text>
+    <text x="760" y="260" font-weight="bold">4 · Dummy profile — machine lowers head</text>
+    <text x="778" y="280">(hand on machine e-stop, first runs)</text>
+    <text x="760" y="310" font-weight="bold">5 · PLACE — slow descent → click →</text>
+    <text x="778" y="330">dwell 2 s → RELEASE → auto-PARK</text>
+    <text x="760" y="360" font-weight="bold">6 · Abort dummy → head rises →</text>
+    <text x="778" y="380">run REAL reflow profile</text>
+    <text x="760" y="416" font-size="13" fill="#991b1b">Interlocks: no extend &gt;60 °C · click halts</text>
+    <text x="760" y="434" font-size="13" fill="#991b1b">descent always · vent before pump-off</text>
+  </g>
+
+  <!-- ============ VACUUM BOARD ============ -->
+  <rect x="740" y="470" width="370" height="200" rx="10" fill="none" stroke="#0f766e" stroke-width="2.5"/>
+  <text x="760" y="502" font-size="18" font-weight="bold" fill="#0f766e">Vacuum board</text>
+  <circle cx="800" cy="560" r="9" fill="#0f766e"/>
+  <text x="776" y="592" font-size="12" fill="#0f766e">tee</text>
+  <rect x="770" y="600" width="80" height="34" rx="4" fill="#d1fae5" stroke="#047857" stroke-width="2"/>
+  <text x="782" y="622" font-size="13" fill="#065f46">sensor</text>
+  <line x1="800" y1="569" x2="800" y2="600" stroke="#0f766e" stroke-width="3"/>
+  <line x1="809" y1="560" x2="884" y2="560" stroke="#0f766e" stroke-width="3.5"/>
+  <rect x="886" y="538" width="100" height="44" rx="4" fill="#d1fae5" stroke="#047857" stroke-width="2"/>
+  <text x="898" y="556" font-size="13" fill="#065f46">3-way valve</text>
+  <text x="898" y="574" font-size="12" fill="#065f46">COM←line</text>
+  <line x1="936" y1="582" x2="936" y2="616" stroke="#0f766e" stroke-width="3.5"/>
+  <rect x="886" y="618" width="100" height="40" rx="4" fill="#d1fae5" stroke="#047857" stroke-width="2"/>
+  <text x="900" y="644" font-size="13" fill="#065f46">pump (NC)</text>
+  <line x1="986" y1="552" x2="1030" y2="536" stroke="#0f766e" stroke-width="3" stroke-dasharray="4 4"/>
+  <text x="1000" y="522" font-size="12" fill="#0f766e">NO=vent</text>
+  <text x="760" y="656" font-size="12" fill="#374151">energized = release · 6×3 hose on barbs, 8×4 run</text>
+
+  <!-- ============ ELECTRONICS ============ -->
+  <rect x="740" y="694" width="370" height="420" rx="10" fill="none" stroke="#7c3aed" stroke-width="2.5"/>
+  <text x="760" y="726" font-size="18" font-weight="bold" fill="#4c1d95">Electronics (bench box)</text>
+  <rect x="760" y="744" width="330" height="130" rx="8" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="776" y="770" font-size="14" font-weight="bold" fill="#4c1d95">ESP32 in screw-terminal breakout</text>
+  <g font-size="12.5" fill="#4c1d95">
+    <text x="776" y="792">26/27/14→TMC2209 · 32/33→MOSFETs</text>
+    <text x="776" y="810">34←XGZP(3.3V!) · 35←Z-home +10kΩ→3V3</text>
+    <text x="776" y="828">13←touchdown · 18/19/21←encoder</text>
+    <text x="776" y="846">22/23/16/17←buttons · 5/4/15↔MAX6675</text>
+    <text x="776" y="864">25/2↔OLED (Wire.begin(25,2))</text>
+  </g>
+  <g font-size="13" fill="#374151">
+    <text x="760" y="900" font-weight="bold" fill="#7f1d1d">PSU 12V → E-STOP → rail:</text>
+    <text x="776" y="922">TMC2209 VM (+100 µF) · pump · valve</text>
+    <text x="776" y="944">1N4007 across pump &amp; valve · common GND</text>
+    <text x="760" y="974" font-weight="bold">Firmware: placement_head_v4.ino</text>
+    <text x="776" y="996">STEPS_PER_MM = 400 (4 mm pitch, 1/8 µstep)</text>
+    <text x="776" y="1018">VAC_OK ≈ −20 kPa reading (±40 kPa sensor)</text>
+    <text x="776" y="1040">TMC Vref ≈ 0.5–0.6 V (NEMA11)</text>
+    <text x="776" y="1062">feeds: travel ≤8 mm/s · place ~1.5 mm/s</text>
+    <text x="776" y="1084">switches NO→GND (LOW = triggered)</text>
+  </g>
+
+  <!-- ============ KEY NUMBERS ============ -->
+  <rect x="60" y="1280" width="1050" height="200" rx="10" fill="#fffbeb" stroke="#b45309" stroke-width="2.5"/>
+  <text x="80" y="1312" font-size="18" font-weight="bold" fill="#7c2d12">Key numbers (the whole project in one box)</text>
+  <g font-size="14" fill="#374151">
+    <text x="80" y="1342">hole Ø9.7 · bushing 6×9 + ~3 shim wraps · tube 6 mm OD ×~200 mm finished · collars metric 6 mm</text>
+    <text x="80" y="1368">coupling 6→10 · CN750 head Ø10/opening Ø9 · float trip ~50 g, softer than CN750's spring</text>
+    <text x="80" y="1394">stroke 100 mm @ 4 mm pitch → 400 steps/mm · PARK / ALIGN / SAFE(G−3) / PLACE(click)</text>
+    <text x="80" y="1420">interlock 60 °C · dot-test pass ≤0.3 mm · dry runs ×10 before any live board</text>
+    <text x="80" y="1450" font-weight="bold" fill="#7c2d12">Outstanding orders: CN750 · PSU · diodes · coupling · bushing · collars · fasteners · PTFE</text>
+  </g>
+</svg>
